@@ -7,7 +7,7 @@ class ForecastDay extends Component {
     }
     render() { 
         const {day} = this.props;
-        console.log(day)
+        //console.log(day)
         return ( 
             <div className="forcastday-container">
             <div className="image">

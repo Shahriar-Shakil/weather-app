@@ -44,7 +44,7 @@ const {eventEmitter} = this.props;
 this.weatherUpdate()
   eventEmitter.on("updateWeather",(data)=>{
     this.setState({cityName:data},()=>this.weatherUpdate())
-console.log("locationName:",data)
+//console.log("locationName:",data)
   })
 }
 
